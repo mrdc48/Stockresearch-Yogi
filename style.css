@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+*{
+  margin: 0;
+  padding : 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.container{
+  width: 100%;
+  height:6%;
+  top: 0;
+  position: fixed;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.navbar{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  right: -100%;
+  position: fixed ;
+  align-items: center;
+  background-color: #fff;
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1)
+}
+.change{
+  right: 0%;
+}
+.logo_make  p {
+  width: 100%;
+  margin-left: 13px;
+  margin-top: 5px;
+  padding-top: 3px;
+  height: 50%; 
+  margin-bottom: 3px;
+  font-size: 20px;
+  position: fixed;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.logo{
+  margin: 5px;
+  top: 10px;
+  padding-left: 3px ;
+  width: 38px;
+  height: 32px;
+}
+ .textform {
+  top: 2px;
+  bottom: 10%;
+  right: 3%;
+  color: #8B0000;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.hamburger{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  top: 5px;
+  right: 20px;
+  position: fixed;
+  padding: 0;
+  cursor: pointer;
+  margin-bottom: 3px ;
+  justify-content: space-around;
+}
+.bar{
+  width: 100%;
+  height: 8%;
+  margin: 0;
+  background: #282828;
+  transition: all 0.3s;
+}
+.change .bar_1{
+  transform: rotateZ(-45deg) translate(-8px,6px);
+}
+.change .bar_2 {
+  opacity: 0;
+}
+.change .bar_3 {
+  transform: rotateZ(45deg) translate(-8px,-6px);
+}
+.navbar_list {
+  text-align: center;
+
+}
+
+.nav_items {
+  font-family: 'Shippori Mincho', serif;
+  list-style: none;
+  margin: 20px;
+}
+
+.nav_links {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #8B0000;
+}
+.design{
+  width: 85%;
+  margin: 50px 0px 10px 20px;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main{
+  width: 100%;
+}
+.main_text{
+  width: 100%;
+}
+.Honesty{
+  width: 100%;
+  height: 72vh;
+  margin-top: 42px;
+}
+.hume{
+  display: none;
+}
+.sub-headings{
+  background: #fff;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ margin-top: 0px;
+  width: 100%;
+ margin-left: 0px;
+ padding-top: 20px;
+ margin-bottom: 10px;
+ font-family: 'Nunito Sans', sans-serif;
+  height : 80%;
+}
+.sub-headings .subway{
+  color: #282828;
+  margin:10px 30px;
+}
+.Firstservice{
+       background: #fff;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+       font-family: 'Nunito Sans', sans-serif;
+     }
+     .merged {
+       display:flex;
+     }
+      .lop{
+       margin:15px 12px;
+       width: 15%;
+       height: 10%;
+       float: left;
+     }
+     .merged h2{
+       text-align: center;
+       width: 70%;
+       float: right;
+       margin-top: 25px;
+     }
+    .kinga{
+       padding: 15px;
+       
+     }
+.Secondservice{
+  background: #fff;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      font-family: 'Nunito Sans', sans-serif;
+     }
+     .merged {
+       display:flex;
+     }
+      .lop{
+       margin:15px 12px;
+       width: 15%;
+       height: 10%;
+       float: left;
+     }
+     .merged h2{
+       text-align: center;
+       width: 70%;
+       float: right;
+       margin-top: 25px;
+     }
+    .kinga{
+       padding: 15px;
+       
+     }
+.Thirdservice{
+  background: #fff;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+       font-family: 'Nunito Sans', sans-serif;
+     }
+     .merged {
+       display:flex;
+     }
+      .lop{
+       margin:15px 12px;
+       width: 15%;
+       height: 10%;
+       float: left;
+     }
+     .merged h2{
+       text-align: center;
+       width: 70%;
+       float: right;
+       margin-top: 25px;
+     }
+    .kinga{
+       padding: 15px;
+       
+     }
+.card {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: arial;
+}
+
+     
+footer{
+  margin-top: 10px;
+  background: #fff;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+	width: 40px;
+  height: 30px;
+	color: #000;
+	background-color: #FFF;
+	border: 1px solid #000;
+	padding-top: 12px;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	
+	-o-border-radius: 100px;
+}
+
+.socialbtns .fa:hover {
+	color: #FFF;
+	background-color: #000;
+	border: 1px solid #000;
+}
+
+@media (min-width: 768px) and (max-width:1280px) {
+  .container {
+    height : 4.2%;
+  }
+   .logo_make p{
+     display: none;
+   }
+    .nav_links{
+      font-size: 29px;
+     color: #000;
+   }
+  .logo{
+    width: 6%;
+    height:3%;
+    margin:10px 30px ;
+  }
+  .logo_make p {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 35px;
+  }
+  .hamburger{
+    display: none;
+  }
+  .newro{
+    left: 180px;
+    top: 5px;
+    display: flex;
+    justify-content: space-around;
+    position:fixed;
+  }
+  .Honesty  {
+    display:none;
+  }
+  .occurs {
+    display:none;
+  }
+  .hume  {
+    display: block;
+    width: 100vw;
+    max-width: 100vw;
+    height: 575px;
+    max-height: 575px;
+    margin-top: 40px;
+  }
+  .Firstservice{
+       margin: 25px;
+       padding: 15px;
+       width: 40%;
+       height: 100%;
+       float: left;
+       background: #fff;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     }
+     .merged {
+       display:flex;
+     }
+      .lop{
+       padding: 20px;
+       margin:15px 12px;
+       width: 15%;
+       height: 10%;
+       float: left;
+     }
+     .merged h2{
+       text-transform: uppercase;
+       font-size: 30px;
+       text-align: center;
+       width: 70%;
+       float: right;
+       margin-top: 70px;
+     }
+    .kinga li {
+      padding: 5px;
+       font-size: 30px;
+       
+     }
+     .hej a button {
+       margin-left: 300px;
+     }
+     .Secondservice{
+       height: auto;
+       overflow-x: hidden;
+       margin: 15px;
+       padding: 15px;
+       width: 40%;
+       float: right;
+     }
+     .Thirdservice{
+       width: 100%;
+     }
+     .Thirdservice li{
+       padding: 40px;
+     }
+     .kiop{
+       margin-left: 20%;
+       margin-right: 20%;
+       width: 80%;
+       max-width: 80%;
+       height: 400px;
+       max-height: 400px;
+     }
+}
